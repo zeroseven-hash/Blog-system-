@@ -1,0 +1,192 @@
+2020-05-17 08:07:53.877  INFO 14332 --- [restartedMain] com.blog2.Blog2Application               : Starting Blog2Application on DESKTOP-NOA9A9G with PID 14332 (C:\Users\18376\Desktop\blog2\target\classes started by 18376 in C:\Users\18376\Desktop\blog2)
+2020-05-17 08:07:53.887  INFO 14332 --- [restartedMain] com.blog2.Blog2Application               : The following profiles are active: dev
+2020-05-17 08:07:53.967  INFO 14332 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\18376\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/18376/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/18376/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/18376/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/18376/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/18376/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/18376/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-05-17 08:07:53.967  INFO 14332 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-05-17 08:07:53.967  INFO 14332 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-05-17 08:07:55.082  INFO 14332 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-05-17 08:07:55.175  INFO 14332 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 83ms. Found 5 JPA repository interfaces.
+2020-05-17 08:07:56.017  INFO 14332 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-05-17 08:07:56.027  INFO 14332 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-05-17 08:07:56.037  INFO 14332 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-05-17 08:07:56.170  INFO 14332 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-05-17 08:07:56.170  INFO 14332 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2203 ms
+2020-05-17 08:07:56.427  INFO 14332 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-17 08:07:56.555  INFO 14332 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-05-17 08:07:56.737  INFO 14332 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-17 08:07:56.898  INFO 14332 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-05-17 08:07:57.402  INFO 14332 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-05-17 08:07:57.426  INFO 14332 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-05-17 08:07:58.497  INFO 14332 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-17 08:07:58.504  INFO 14332 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-05-17 08:07:58.566  INFO 14332 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-05-17 08:07:59.364  WARN 14332 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-05-17 08:07:59.565  INFO 14332 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-17 08:07:59.667  INFO 14332 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-05-17 08:08:00.134  INFO 14332 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-17 08:08:00.137  INFO 14332 --- [restartedMain] com.blog2.Blog2Application               : Started Blog2Application in 7.001 seconds (JVM running for 10.327)
+2020-05-17 08:26:41.395  INFO 12344 --- [restartedMain] com.blog2.Blog2Application               : Starting Blog2Application on DESKTOP-NOA9A9G with PID 12344 (C:\Users\18376\Desktop\blog2\target\classes started by 18376 in C:\Users\18376\Desktop\blog2)
+2020-05-17 08:26:41.398  INFO 12344 --- [restartedMain] com.blog2.Blog2Application               : The following profiles are active: dev
+2020-05-17 08:26:41.512  INFO 12344 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\18376\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/18376/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/18376/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/18376/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/18376/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/18376/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/18376/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-05-17 08:26:41.515  INFO 12344 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-05-17 08:26:41.517  INFO 12344 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-05-17 08:26:43.210  INFO 12344 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-05-17 08:26:43.393  INFO 12344 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 174ms. Found 5 JPA repository interfaces.
+2020-05-17 08:26:44.226  INFO 12344 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-05-17 08:26:44.234  INFO 12344 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-05-17 08:26:44.234  INFO 12344 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-05-17 08:26:44.346  INFO 12344 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-05-17 08:26:44.346  INFO 12344 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2828 ms
+2020-05-17 08:26:44.542  INFO 12344 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-17 08:26:44.602  INFO 12344 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-05-17 08:26:44.730  INFO 12344 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-17 08:26:44.856  INFO 12344 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-05-17 08:26:45.232  INFO 12344 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-05-17 08:26:45.252  INFO 12344 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-05-17 08:26:46.222  INFO 12344 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-17 08:26:46.230  INFO 12344 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-05-17 08:26:46.312  WARN 12344 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2020-05-17 08:26:47.358  WARN 12344 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-05-17 08:26:47.589  INFO 12344 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-17 08:26:47.707  INFO 12344 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-05-17 08:26:48.135  INFO 12344 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-05-17 08:26:48.142  INFO 12344 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-05-17 08:26:48.147 ERROR 12344 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2020-05-17 08:26:48.152  INFO 12344 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-05-17 08:26:48.153  INFO 12344 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-05-17 08:26:48.157  INFO 12344 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-05-17 08:26:48.194  INFO 12344 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-05-17 08:27:09.072  INFO 14332 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-17 08:27:09.073  INFO 14332 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-05-17 08:27:09.087  INFO 14332 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 14 ms
+2020-05-17 08:27:09.128  INFO 14332 --- [http-nio-8080-exec-1] com.blog2.aspect.LogAspect               : Request: url='http://localhost:8080/',ip=0:0:0:0:0:0:0:1,classMethod=com.blog2.Controller.IndexController.index,args=[Page request [number: 0, size 4, sort: updateTime: DESC], {}]
+2020-05-17 08:27:09.314  WARN 14332 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-05-17 08:27:09.333  WARN 14332 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-05-17 08:27:09.369  INFO 14332 --- [http-nio-8080-exec-1] com.blog2.aspect.LogAspect               : Result: index
+2020-05-17 08:27:10.220  INFO 14332 --- [http-nio-8080-exec-10] com.blog2.aspect.LogAspect               : Request: url='http://localhost:8080/footer/newblog',ip=0:0:0:0:0:0:0:1,classMethod=com.blog2.Controller.IndexController.newblogs,args=[{}]
+2020-05-17 08:27:10.236  INFO 14332 --- [http-nio-8080-exec-10] com.blog2.aspect.LogAspect               : Result: _fragment :: newblogList
+2020-05-17 08:27:18.660  INFO 14332 --- [http-nio-8080-exec-1] com.blog2.aspect.LogAspect               : Request: url='http://localhost:8080/types/-1',ip=0:0:0:0:0:0:0:1,classMethod=com.blog2.Controller.TypeShowController.type,args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]
+2020-05-17 08:27:18.683  INFO 14332 --- [http-nio-8080-exec-1] com.blog2.aspect.LogAspect               : Result: types
+2020-05-17 08:27:18.844  INFO 14332 --- [http-nio-8080-exec-10] com.blog2.aspect.LogAspect               : Request: url='http://localhost:8080/footer/newblog',ip=0:0:0:0:0:0:0:1,classMethod=com.blog2.Controller.IndexController.newblogs,args=[{}]
+2020-05-17 08:27:18.858  INFO 14332 --- [http-nio-8080-exec-10] com.blog2.aspect.LogAspect               : Result: _fragment :: newblogList
+2020-05-17 08:27:20.691  INFO 14332 --- [http-nio-8080-exec-9] com.blog2.aspect.LogAspect               : Request: url='http://localhost:8080/tags/-1',ip=0:0:0:0:0:0:0:1,classMethod=com.blog2.Controller.TagShowController.type,args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]
+2020-05-17 08:27:20.731  INFO 14332 --- [http-nio-8080-exec-9] com.blog2.aspect.LogAspect               : Result: tags
+2020-05-17 08:27:20.908  INFO 14332 --- [http-nio-8080-exec-5] com.blog2.aspect.LogAspect               : Request: url='http://localhost:8080/footer/newblog',ip=0:0:0:0:0:0:0:1,classMethod=com.blog2.Controller.IndexController.newblogs,args=[{}]
+2020-05-17 08:27:20.920  INFO 14332 --- [http-nio-8080-exec-5] com.blog2.aspect.LogAspect               : Result: _fragment :: newblogList
+2020-05-17 08:27:21.625  INFO 14332 --- [http-nio-8080-exec-10] com.blog2.aspect.LogAspect               : Request: url='http://localhost:8080/archives',ip=0:0:0:0:0:0:0:1,classMethod=com.blog2.Controller.ArchivesShowController.archives,args=[{}]
+2020-05-17 08:27:21.668  INFO 14332 --- [http-nio-8080-exec-10] com.blog2.aspect.LogAspect               : Result: archives
+2020-05-17 08:27:21.768  INFO 14332 --- [http-nio-8080-exec-4] com.blog2.aspect.LogAspect               : Request: url='http://localhost:8080/footer/newblog',ip=0:0:0:0:0:0:0:1,classMethod=com.blog2.Controller.IndexController.newblogs,args=[{}]
+2020-05-17 08:27:21.781  INFO 14332 --- [http-nio-8080-exec-4] com.blog2.aspect.LogAspect               : Result: _fragment :: newblogList
+2020-05-17 08:27:22.751  INFO 14332 --- [http-nio-8080-exec-5] com.blog2.aspect.LogAspect               : Request: url='http://localhost:8080/about',ip=0:0:0:0:0:0:0:1,classMethod=com.blog2.Controller.IndexController.about,args=[]
+2020-05-17 08:27:22.752  INFO 14332 --- [http-nio-8080-exec-5] com.blog2.aspect.LogAspect               : Result: about
+2020-05-17 08:27:22.859  INFO 14332 --- [http-nio-8080-exec-4] com.blog2.aspect.LogAspect               : Request: url='http://localhost:8080/footer/newblog',ip=0:0:0:0:0:0:0:1,classMethod=com.blog2.Controller.IndexController.newblogs,args=[{}]
+2020-05-17 08:27:22.869  INFO 14332 --- [http-nio-8080-exec-4] com.blog2.aspect.LogAspect               : Result: _fragment :: newblogList
+2020-05-17 08:27:24.875  INFO 14332 --- [http-nio-8080-exec-5] com.blog2.aspect.LogAspect               : Request: url='http://localhost:8080/archives',ip=0:0:0:0:0:0:0:1,classMethod=com.blog2.Controller.ArchivesShowController.archives,args=[{}]
+2020-05-17 08:27:24.896  INFO 14332 --- [http-nio-8080-exec-5] com.blog2.aspect.LogAspect               : Result: archives
+2020-05-17 08:27:25.010  INFO 14332 --- [http-nio-8080-exec-8] com.blog2.aspect.LogAspect               : Request: url='http://localhost:8080/footer/newblog',ip=0:0:0:0:0:0:0:1,classMethod=com.blog2.Controller.IndexController.newblogs,args=[{}]
+2020-05-17 08:27:25.021  INFO 14332 --- [http-nio-8080-exec-8] com.blog2.aspect.LogAspect               : Result: _fragment :: newblogList
+2020-05-17 08:27:25.946  INFO 14332 --- [http-nio-8080-exec-4] com.blog2.aspect.LogAspect               : Request: url='http://localhost:8080/',ip=0:0:0:0:0:0:0:1,classMethod=com.blog2.Controller.IndexController.index,args=[Page request [number: 0, size 4, sort: updateTime: DESC], {}]
+2020-05-17 08:27:25.970  INFO 14332 --- [http-nio-8080-exec-4] com.blog2.aspect.LogAspect               : Result: index
+2020-05-17 08:27:26.069  INFO 14332 --- [http-nio-8080-exec-3] com.blog2.aspect.LogAspect               : Request: url='http://localhost:8080/footer/newblog',ip=0:0:0:0:0:0:0:1,classMethod=com.blog2.Controller.IndexController.newblogs,args=[{}]
+2020-05-17 08:27:26.076  INFO 14332 --- [http-nio-8080-exec-3] com.blog2.aspect.LogAspect               : Result: _fragment :: newblogList
+2020-05-17 08:27:27.496  INFO 14332 --- [http-nio-8080-exec-8] com.blog2.aspect.LogAspect               : Request: url='http://localhost:8080/types/-1',ip=0:0:0:0:0:0:0:1,classMethod=com.blog2.Controller.TypeShowController.type,args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]
+2020-05-17 08:27:27.507  INFO 14332 --- [http-nio-8080-exec-8] com.blog2.aspect.LogAspect               : Result: types
+2020-05-17 08:27:27.647  INFO 14332 --- [http-nio-8080-exec-3] com.blog2.aspect.LogAspect               : Request: url='http://localhost:8080/footer/newblog',ip=0:0:0:0:0:0:0:1,classMethod=com.blog2.Controller.IndexController.newblogs,args=[{}]
+2020-05-17 08:27:27.655  INFO 14332 --- [http-nio-8080-exec-3] com.blog2.aspect.LogAspect               : Result: _fragment :: newblogList
+2020-05-17 08:27:28.997  INFO 14332 --- [http-nio-8080-exec-1] com.blog2.aspect.LogAspect               : Request: url='http://localhost:8080/types/2',ip=0:0:0:0:0:0:0:1,classMethod=com.blog2.Controller.TypeShowController.type,args=[Page request [number: 0, size 8, sort: updateTime: DESC], 2, {}]
+2020-05-17 08:27:29.009  INFO 14332 --- [http-nio-8080-exec-1] com.blog2.aspect.LogAspect               : Result: types
+2020-05-17 08:27:29.116  INFO 14332 --- [http-nio-8080-exec-4] com.blog2.aspect.LogAspect               : Request: url='http://localhost:8080/footer/newblog',ip=0:0:0:0:0:0:0:1,classMethod=com.blog2.Controller.IndexController.newblogs,args=[{}]
+2020-05-17 08:27:29.125  INFO 14332 --- [http-nio-8080-exec-4] com.blog2.aspect.LogAspect               : Result: _fragment :: newblogList
+2020-05-17 08:27:29.967  INFO 14332 --- [http-nio-8080-exec-3] com.blog2.aspect.LogAspect               : Request: url='http://localhost:8080/types/5',ip=0:0:0:0:0:0:0:1,classMethod=com.blog2.Controller.TypeShowController.type,args=[Page request [number: 0, size 8, sort: updateTime: DESC], 5, {}]
+2020-05-17 08:27:29.980  INFO 14332 --- [http-nio-8080-exec-3] com.blog2.aspect.LogAspect               : Result: types
+2020-05-17 08:27:30.114  INFO 14332 --- [http-nio-8080-exec-9] com.blog2.aspect.LogAspect               : Request: url='http://localhost:8080/footer/newblog',ip=0:0:0:0:0:0:0:1,classMethod=com.blog2.Controller.IndexController.newblogs,args=[{}]
+2020-05-17 08:27:30.125  INFO 14332 --- [http-nio-8080-exec-9] com.blog2.aspect.LogAspect               : Result: _fragment :: newblogList
+2020-05-17 08:27:31.003  INFO 14332 --- [http-nio-8080-exec-6] com.blog2.aspect.LogAspect               : Request: url='http://localhost:8080/types/6',ip=0:0:0:0:0:0:0:1,classMethod=com.blog2.Controller.TypeShowController.type,args=[Page request [number: 0, size 8, sort: updateTime: DESC], 6, {}]
+2020-05-17 08:27:31.015  INFO 14332 --- [http-nio-8080-exec-6] com.blog2.aspect.LogAspect               : Result: types
+2020-05-17 08:27:31.123  INFO 14332 --- [http-nio-8080-exec-5] com.blog2.aspect.LogAspect               : Request: url='http://localhost:8080/footer/newblog',ip=0:0:0:0:0:0:0:1,classMethod=com.blog2.Controller.IndexController.newblogs,args=[{}]
+2020-05-17 08:27:31.132  INFO 14332 --- [http-nio-8080-exec-5] com.blog2.aspect.LogAspect               : Result: _fragment :: newblogList
+2020-05-17 08:27:32.028  INFO 14332 --- [http-nio-8080-exec-4] com.blog2.aspect.LogAspect               : Request: url='http://localhost:8080/types/5',ip=0:0:0:0:0:0:0:1,classMethod=com.blog2.Controller.TypeShowController.type,args=[Page request [number: 0, size 8, sort: updateTime: DESC], 5, {}]
+2020-05-17 08:27:32.036  INFO 14332 --- [http-nio-8080-exec-4] com.blog2.aspect.LogAspect               : Result: types
+2020-05-17 08:27:32.144  INFO 14332 --- [http-nio-8080-exec-1] com.blog2.aspect.LogAspect               : Request: url='http://localhost:8080/footer/newblog',ip=0:0:0:0:0:0:0:1,classMethod=com.blog2.Controller.IndexController.newblogs,args=[{}]
+2020-05-17 08:27:32.150  INFO 14332 --- [http-nio-8080-exec-1] com.blog2.aspect.LogAspect               : Result: _fragment :: newblogList
+2020-05-17 08:27:32.697  INFO 14332 --- [http-nio-8080-exec-9] com.blog2.aspect.LogAspect               : Request: url='http://localhost:8080/',ip=0:0:0:0:0:0:0:1,classMethod=com.blog2.Controller.IndexController.index,args=[Page request [number: 0, size 4, sort: updateTime: DESC], {}]
+2020-05-17 08:27:32.718  INFO 14332 --- [http-nio-8080-exec-9] com.blog2.aspect.LogAspect               : Result: index
+2020-05-17 08:27:32.846  INFO 14332 --- [http-nio-8080-exec-8] com.blog2.aspect.LogAspect               : Request: url='http://localhost:8080/footer/newblog',ip=0:0:0:0:0:0:0:1,classMethod=com.blog2.Controller.IndexController.newblogs,args=[{}]
+2020-05-17 08:27:32.853  INFO 14332 --- [http-nio-8080-exec-8] com.blog2.aspect.LogAspect               : Result: _fragment :: newblogList
+2020-05-17 08:29:34.064  INFO 14332 --- [http-nio-8080-exec-7] com.blog2.aspect.LogAspect               : Request: url='http://localhost:8080/blog/11',ip=0:0:0:0:0:0:0:1,classMethod=com.blog2.Controller.IndexController.blog,args=[11, {}]
+2020-05-17 08:29:34.197  INFO 14332 --- [http-nio-8080-exec-7] com.blog2.aspect.LogAspect               : Result: blog
+2020-05-17 08:29:34.532  INFO 14332 --- [http-nio-8080-exec-2] com.blog2.aspect.LogAspect               : Request: url='http://localhost:8080/comments/11',ip=0:0:0:0:0:0:0:1,classMethod=com.blog2.Controller.CommentController.comments,args=[11, {}]
+2020-05-17 08:29:34.579  INFO 14332 --- [http-nio-8080-exec-2] com.blog2.aspect.LogAspect               : Result: blog :: commentList
+2020-05-17 08:29:54.547  INFO 14332 --- [http-nio-8080-exec-10] com.blog2.aspect.LogAspect               : Request: url='http://localhost:8080/archives',ip=0:0:0:0:0:0:0:1,classMethod=com.blog2.Controller.ArchivesShowController.archives,args=[{}]
+2020-05-17 08:29:54.563  INFO 14332 --- [http-nio-8080-exec-10] com.blog2.aspect.LogAspect               : Result: archives
+2020-05-17 08:29:54.647  INFO 14332 --- [http-nio-8080-exec-7] com.blog2.aspect.LogAspect               : Request: url='http://localhost:8080/footer/newblog',ip=0:0:0:0:0:0:0:1,classMethod=com.blog2.Controller.IndexController.newblogs,args=[{}]
+2020-05-17 08:29:54.654  INFO 14332 --- [http-nio-8080-exec-7] com.blog2.aspect.LogAspect               : Result: _fragment :: newblogList
+2020-05-17 08:29:56.031  INFO 14332 --- [http-nio-8080-exec-8] com.blog2.aspect.LogAspect               : Request: url='http://localhost:8080/tags/-1',ip=0:0:0:0:0:0:0:1,classMethod=com.blog2.Controller.TagShowController.type,args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]
+2020-05-17 08:29:56.048  INFO 14332 --- [http-nio-8080-exec-8] com.blog2.aspect.LogAspect               : Result: tags
+2020-05-17 08:29:56.190  INFO 14332 --- [http-nio-8080-exec-7] com.blog2.aspect.LogAspect               : Request: url='http://localhost:8080/footer/newblog',ip=0:0:0:0:0:0:0:1,classMethod=com.blog2.Controller.IndexController.newblogs,args=[{}]
+2020-05-17 08:29:56.195  INFO 14332 --- [http-nio-8080-exec-7] com.blog2.aspect.LogAspect               : Result: _fragment :: newblogList
+2020-05-17 08:29:56.616  INFO 14332 --- [http-nio-8080-exec-2] com.blog2.aspect.LogAspect               : Request: url='http://localhost:8080/about',ip=0:0:0:0:0:0:0:1,classMethod=com.blog2.Controller.IndexController.about,args=[]
+2020-05-17 08:29:56.616  INFO 14332 --- [http-nio-8080-exec-2] com.blog2.aspect.LogAspect               : Result: about
+2020-05-17 08:29:56.714  INFO 14332 --- [http-nio-8080-exec-6] com.blog2.aspect.LogAspect               : Request: url='http://localhost:8080/footer/newblog',ip=0:0:0:0:0:0:0:1,classMethod=com.blog2.Controller.IndexController.newblogs,args=[{}]
+2020-05-17 08:29:56.720  INFO 14332 --- [http-nio-8080-exec-6] com.blog2.aspect.LogAspect               : Result: _fragment :: newblogList
+2020-05-17 08:30:00.590  INFO 14332 --- [http-nio-8080-exec-2] com.blog2.aspect.LogAspect               : Request: url='http://localhost:8080/',ip=0:0:0:0:0:0:0:1,classMethod=com.blog2.Controller.IndexController.index,args=[Page request [number: 0, size 4, sort: updateTime: DESC], {}]
+2020-05-17 08:30:00.611  INFO 14332 --- [http-nio-8080-exec-2] com.blog2.aspect.LogAspect               : Result: index
+2020-05-17 08:30:00.696  INFO 14332 --- [http-nio-8080-exec-9] com.blog2.aspect.LogAspect               : Request: url='http://localhost:8080/footer/newblog',ip=0:0:0:0:0:0:0:1,classMethod=com.blog2.Controller.IndexController.newblogs,args=[{}]
+2020-05-17 08:30:00.703  INFO 14332 --- [http-nio-8080-exec-9] com.blog2.aspect.LogAspect               : Result: _fragment :: newblogList
+2020-05-17 11:12:57.193  INFO 14332 --- [http-nio-8080-exec-5] com.blog2.aspect.LogAspect               : Request: url='http://localhost:8080/types/-1',ip=0:0:0:0:0:0:0:1,classMethod=com.blog2.Controller.TypeShowController.type,args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]
+2020-05-17 11:12:57.299  INFO 14332 --- [http-nio-8080-exec-5] com.blog2.aspect.LogAspect               : Result: types
+2020-05-17 11:12:57.834  INFO 14332 --- [http-nio-8080-exec-8] com.blog2.aspect.LogAspect               : Request: url='http://localhost:8080/footer/newblog',ip=0:0:0:0:0:0:0:1,classMethod=com.blog2.Controller.IndexController.newblogs,args=[{}]
+2020-05-17 11:12:57.857  INFO 14332 --- [http-nio-8080-exec-8] com.blog2.aspect.LogAspect               : Result: _fragment :: newblogList
+2020-05-17 11:12:58.113  INFO 14332 --- [http-nio-8080-exec-7] com.blog2.aspect.LogAspect               : Request: url='http://localhost:8080/types/-1',ip=0:0:0:0:0:0:0:1,classMethod=com.blog2.Controller.TypeShowController.type,args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]
+2020-05-17 11:12:58.133  INFO 14332 --- [http-nio-8080-exec-7] com.blog2.aspect.LogAspect               : Result: types
+2020-05-17 11:12:58.557  INFO 14332 --- [http-nio-8080-exec-3] com.blog2.aspect.LogAspect               : Request: url='http://localhost:8080/footer/newblog',ip=0:0:0:0:0:0:0:1,classMethod=com.blog2.Controller.IndexController.newblogs,args=[{}]
+2020-05-17 11:12:58.576  INFO 14332 --- [http-nio-8080-exec-3] com.blog2.aspect.LogAspect               : Result: _fragment :: newblogList
+2020-05-17 11:13:02.419  INFO 14332 --- [http-nio-8080-exec-8] com.blog2.aspect.LogAspect               : Request: url='http://localhost:8080/types/2',ip=0:0:0:0:0:0:0:1,classMethod=com.blog2.Controller.TypeShowController.type,args=[Page request [number: 0, size 8, sort: updateTime: DESC], 2, {}]
+2020-05-17 11:13:02.440  INFO 14332 --- [http-nio-8080-exec-8] com.blog2.aspect.LogAspect               : Result: types
+2020-05-17 11:13:02.869  INFO 14332 --- [http-nio-8080-exec-3] com.blog2.aspect.LogAspect               : Request: url='http://localhost:8080/footer/newblog',ip=0:0:0:0:0:0:0:1,classMethod=com.blog2.Controller.IndexController.newblogs,args=[{}]
+2020-05-17 11:13:02.887  INFO 14332 --- [http-nio-8080-exec-3] com.blog2.aspect.LogAspect               : Result: _fragment :: newblogList
+2020-05-17 11:13:04.346  INFO 14332 --- [http-nio-8080-exec-4] com.blog2.aspect.LogAspect               : Request: url='http://localhost:8080/tags/-1',ip=0:0:0:0:0:0:0:1,classMethod=com.blog2.Controller.TagShowController.type,args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]
+2020-05-17 11:13:04.366  INFO 14332 --- [http-nio-8080-exec-4] com.blog2.aspect.LogAspect               : Result: tags
+2020-05-17 11:13:04.643  INFO 14332 --- [http-nio-8080-exec-2] com.blog2.aspect.LogAspect               : Request: url='http://localhost:8080/footer/newblog',ip=0:0:0:0:0:0:0:1,classMethod=com.blog2.Controller.IndexController.newblogs,args=[{}]
+2020-05-17 11:13:04.653  INFO 14332 --- [http-nio-8080-exec-2] com.blog2.aspect.LogAspect               : Result: _fragment :: newblogList
+2020-05-17 11:13:08.347  INFO 14332 --- [http-nio-8080-exec-3] com.blog2.aspect.LogAspect               : Request: url='http://localhost:8080/archives',ip=0:0:0:0:0:0:0:1,classMethod=com.blog2.Controller.ArchivesShowController.archives,args=[{}]
+2020-05-17 11:13:08.384  INFO 14332 --- [http-nio-8080-exec-3] com.blog2.aspect.LogAspect               : Result: archives
+2020-05-17 11:13:08.704  INFO 14332 --- [http-nio-8080-exec-2] com.blog2.aspect.LogAspect               : Request: url='http://localhost:8080/footer/newblog',ip=0:0:0:0:0:0:0:1,classMethod=com.blog2.Controller.IndexController.newblogs,args=[{}]
+2020-05-17 11:13:08.719  INFO 14332 --- [http-nio-8080-exec-2] com.blog2.aspect.LogAspect               : Result: _fragment :: newblogList
+2020-05-17 11:13:13.524  INFO 14332 --- [http-nio-8080-exec-9] com.blog2.aspect.LogAspect               : Request: url='http://localhost:8080/about',ip=0:0:0:0:0:0:0:1,classMethod=com.blog2.Controller.IndexController.about,args=[]
+2020-05-17 11:13:13.527  INFO 14332 --- [http-nio-8080-exec-9] com.blog2.aspect.LogAspect               : Result: about
+2020-05-17 11:13:13.838  INFO 14332 --- [http-nio-8080-exec-2] com.blog2.aspect.LogAspect               : Request: url='http://localhost:8080/footer/newblog',ip=0:0:0:0:0:0:0:1,classMethod=com.blog2.Controller.IndexController.newblogs,args=[{}]
+2020-05-17 11:13:13.854  INFO 14332 --- [http-nio-8080-exec-2] com.blog2.aspect.LogAspect               : Result: _fragment :: newblogList
+2020-05-17 11:13:16.285  INFO 14332 --- [http-nio-8080-exec-9] com.blog2.aspect.LogAspect               : Request: url='http://localhost:8080/',ip=0:0:0:0:0:0:0:1,classMethod=com.blog2.Controller.IndexController.index,args=[Page request [number: 0, size 4, sort: updateTime: DESC], {}]
+2020-05-17 11:13:16.326  INFO 14332 --- [http-nio-8080-exec-9] com.blog2.aspect.LogAspect               : Result: index
+2020-05-17 11:13:16.703  INFO 14332 --- [http-nio-8080-exec-7] com.blog2.aspect.LogAspect               : Request: url='http://localhost:8080/footer/newblog',ip=0:0:0:0:0:0:0:1,classMethod=com.blog2.Controller.IndexController.newblogs,args=[{}]
+2020-05-17 11:13:16.720  INFO 14332 --- [http-nio-8080-exec-7] com.blog2.aspect.LogAspect               : Result: _fragment :: newblogList
+2020-05-17 11:13:32.647  WARN 14332 --- [http-nio-8080-exec-1] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [386] milliseconds.
+2020-05-17 11:14:43.623  INFO 14332 --- [http-nio-8080-exec-5] com.blog2.aspect.LogAspect               : Request: url='http://localhost:8080/',ip=0:0:0:0:0:0:0:1,classMethod=com.blog2.Controller.IndexController.index,args=[Page request [number: 0, size 4, sort: updateTime: DESC], {}]
+2020-05-17 11:14:43.665  INFO 14332 --- [http-nio-8080-exec-5] com.blog2.aspect.LogAspect               : Result: index
+2020-05-17 11:14:44.125  INFO 14332 --- [http-nio-8080-exec-2] com.blog2.aspect.LogAspect               : Request: url='http://localhost:8080/footer/newblog',ip=0:0:0:0:0:0:0:1,classMethod=com.blog2.Controller.IndexController.newblogs,args=[{}]
+2020-05-17 11:14:44.153  INFO 14332 --- [http-nio-8080-exec-2] com.blog2.aspect.LogAspect               : Result: _fragment :: newblogList
+2020-05-17 11:14:46.062  INFO 14332 --- [http-nio-8080-exec-4] com.blog2.aspect.LogAspect               : Request: url='http://localhost:8080/blog/12',ip=0:0:0:0:0:0:0:1,classMethod=com.blog2.Controller.IndexController.blog,args=[12, {}]
+2020-05-17 11:14:46.141  INFO 14332 --- [http-nio-8080-exec-4] com.blog2.aspect.LogAspect               : Result: blog
+2020-05-17 11:14:51.334  INFO 14332 --- [http-nio-8080-exec-10] com.blog2.aspect.LogAspect               : Request: url='http://localhost:8080/blog/11',ip=0:0:0:0:0:0:0:1,classMethod=com.blog2.Controller.IndexController.blog,args=[11, {}]
+2020-05-17 11:14:51.371  INFO 14332 --- [http-nio-8080-exec-10] com.blog2.aspect.LogAspect               : Result: blog
+2020-05-17 11:14:52.048  INFO 14332 --- [http-nio-8080-exec-3] com.blog2.aspect.LogAspect               : Request: url='http://localhost:8080/comments/11',ip=0:0:0:0:0:0:0:1,classMethod=com.blog2.Controller.CommentController.comments,args=[11, {}]
+2020-05-17 11:14:52.105  INFO 14332 --- [http-nio-8080-exec-3] com.blog2.aspect.LogAspect               : Result: blog :: commentList
+2020-05-17 12:21:20.448  WARN 14332 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=20m50s240ms264µs400ns).
+2020-05-17 17:39:17.872  WARN 14332 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h54m26s296ms571µs400ns).
+2020-05-17 18:22:53.650  WARN 14332 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=43m35s780ms313µs400ns).
+2020-05-17 21:29:53.567  WARN 14332 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h6m29s914ms448µs800ns).

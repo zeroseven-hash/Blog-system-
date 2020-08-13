@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head th:replace="_fragment :: head(~{::title})">
+    <meta charset="UTF-8">
+    <meta name="vieport" content="width=device-width,initial-scale=1.0">        <!-- 移动端优化-->
+    <title>归档</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/semantic-ui/2.2.10/semantic.min.css">
+    <link rel="stylesheet" href="../static/css/me.css">
+</head >
+<body class="body">
+
+<!--导航-->
+<nav th:replace="_fragment :: menu(4)" class="ui inverted attached segment m-padded-tb-mini m-shadow-small">
+    <div class="ui container">
+        <div class="ui inverted secondary stackable menu">
+            <h2 class="ui teal header item">Blog</h2>
+            <a href="#" class="active item"><i class="small home icon"></i>首页</a>
+            <a href="#" class="item"><i class="small  idea icon"></i>分类</a>
+            <a href="#" class="item"><i class="small  tags icon"></i>标签</a>
+            <a href="#" class="item"><i class="small  clone icon"></i>归档</a>
+            <a href="#" class="item"><i class="small info icon"></i>关于我</a>
+            <div class="right item">
+                <div class="ui icon  input">
+                    <input type="text" placeholder="Search...">
+                    <i class="search link icon"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</nav>
+
+<!--中间内容-->
+<div class="m-container  m-padded-tb-big animated fadeIn" >
+    <div class="ui container">
+        <!--header-->
+        <div class="ui top attached padded segment">
+            <div class="ui middle aligned two column grid">
+                <div class="column">
+                    <h3 class="ui teal header">归档</h3>
+
+                </div>
+                <div class="right aligned column">
+                    共<h2 class="ui orange header m-inline-block m-text-thin" th:text="${blogCount}">124</h2>篇
+                </div>
+            </div>
+        </div>
+        <th:block th:each="item : ${archiveMap}">
+        <h3 class="ui center aligned header" th:text="${item.key}">2020</h3>
+        <div class="ui fluid vertical menu">
+            <a href="#" th:href="@{/blog/{id}(id=${blog.id})}" target="_blank" class="item" th:each="blog : ${item.value}">
+                    <span>
+                        <i class="mini teal circle icon"></i> <span th:text="${blog.title}">关于深受打击啊</span>
+                        <div class="ui teal basic left pointing label m-padded-tb-mini" th:text="${#dates.format(blog.updateTime,'MMMdd')}">9月03</div>
+                    </span>
+                <div class="ui orange basic left pointing label m-padded-tb-mini" th:text="${blog.flag}">原创</div>
+            </a>
+        </div>
+        </th:block>
+    </div>
+</div>
+<br>
+<br>
+
+
+<!--底部-->
+<footer th:replace="_fragment :: footer" class="ui inverted vertical segment m-padded-tb-massive">
+    <div class="ui center aligned container">
+        <div class="ui inverted divided stackable grid">
+            <div class="three wide column">
+                <img src="../static/images/wechat.JPG" class="ui rounded image" alt="" style="width:110px">
+
+            </div>
+            <div class="three wide column">
+                <h4 class="ui inverted header">最新博客</h4>
+                <div class="ui inverted link list">
+                    <a href="#" class="item">用户故事(User Story)</a>
+                    <a href="#" class="item">用户故事(User Story)</a>
+                    <a href="#" class="item">用户故事(User Story)</a>
+
+                </div>
+
+            </div>
+            <div class="three wide column">
+                <h4 class="ui inverted header">联系我</h4>
+                <div class="ui inverted link list">
+                    <a href="#" class="item">Email:1837631136@qq.com</a>
+                    <a href="#" class="item">QQ:1837631136</a>
+                </div>
+            </div>
+            <div class="seven wide column">
+                <h4 class="ui inverted header">博客介绍</h4>
+                <p class="m-text-lined m-opacity-mini m-text-thin">这是我的个人博客、会分享关于编程、写作、思考相关的任何内容，希望可以给来到这儿的人有所帮助</p>
+            </div>
+        </div>
+        <div class="ui inverted section divider"></div>
+        <p>Copyright © 2019-2020 Designed by zhaoqingfeng</p>
+    </div>
+
+
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.2/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/semantic-ui/2.2.10/semantic.min.js"></script>
+<script>
+    $('#newblog-container').load(/*[[@{/footer.newblog}]]*/"/footer/newblog");
+</script>
+</body>
+</html>
